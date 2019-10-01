@@ -1,0 +1,43 @@
+* 00000001
+*! version 1.0.0
+* Do not erase or edit this file
+* It is used by Stata to track the ado and help
+* files you have installed.
+
+S http://fmwww.bc.edu/repec/bocode/p
+N psmatch2.pkg
+D 24 Mar 2019
+U 1
+d 'PSMATCH2': module to perform full Mahalanobis and propensity score matching, common support graphing, and covariate imbalance testing
+d 
+d psmatch2 implements full Mahalanobis and propensity score
+d matching, common support graphing, and covariate imbalance
+d testing. This routine supersedes the previous 'psmatch' routine
+d of B. Sianesi. The April 2012 revision of pstest changes the
+d syntax of that command.
+d 
+d KW: propensity score
+d KW: matching
+d KW: treatment
+d 
+d Requires: Stata version 11
+d 
+d 
+d Author: Edwin Leuven, Ecole Nationale de la Statistique et Administration Economique (ENSAE)
+d Support: email edwin.leuven@@ensae.fr
+d 
+d Author: Barbara Sianesi, Institute for Fiscal Studies
+d Support: email barbara_s@@ifs.org.uk
+d 
+d Distribution-Date: 20180202
+d 
+f p\psmatch2.ado
+f p\psmatch2.sthlp
+f p\psmatch2.dlg
+f p\pstest.ado
+f p\pstest.sthlp
+f p\psgraph.ado
+f p\psgraph.sthlp
+f p\pstest2.ado
+f d\density2.ado
+e
