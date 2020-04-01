@@ -5,6 +5,8 @@ Work-life histories for BHPS participants specifically has been constructed prev
 
 If you notice errors in the code, inadequate explanation/documentation, or would like features adding, please open an issue and I will try to respond.
 
+If you do use the code, please cite it (the OSF project has a DOI), and more importantly, share your own code!
+
 Thanks,
 
 Liam
