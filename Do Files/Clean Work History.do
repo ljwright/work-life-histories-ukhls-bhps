@@ -301,10 +301,13 @@ forval i=1/`r(max)'{
 	by pidp (Wave Spell), sort: replace YY=1 if /*
 		*/ Start_MY==End_MY & Start_MY==Start_MY[_n+1] & Wave!=Wave[_n+1] & _n<_N
 	drop if YY==1
+	count if Start_MY > End_MY
+	local to_drop = `r(N)'
 	drop if Start_MY>End_MY
-	if `r(N_drop)'==0{
+	if `to_drop' == 0{ 
+//	if `r(N_drop)'==0{
 		continue, break
-		}
+		}		
 	}
 drop XX YY
 	
